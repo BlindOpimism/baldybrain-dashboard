@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Privacy Policy</title>
+	<meta name="description" content="Privacy policy for the BaldyBrain Dashboard Obsidian plugin.">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+	<h1>Privacy Policy</h1>
+	<p class="lede">BaldyBrain Dashboard · Effective 2 October 2026</p>
+
+	<p>BaldyBrain Dashboard is a plugin for the Obsidian app, used by its author for personal use. It has no servers of its own, and its developer never receives any of your data.</p>
+
+	<h2>What Google data the plugin accesses</h2>
+	<ul>
+		<li>Your Google Calendar events, through the read-only <code>https://www.googleapis.com/auth/calendar.readonly</code> scope: each event's title, start and end time, for the month you're viewing and for today.</li>
+		<li>The plugin never creates, edits or deletes events, and doesn't access any other Google data.</li>
+	</ul>
+
+	<h2>How it's used</h2>
+	<p>Events are shown on the dashboard inside Obsidian on your own device, and that's all they're used for. They're kept in memory while Obsidian is open and are never written to disk.</p>
+
+	<h2>Where it's stored</h2>
+	<ul>
+		<li>The Google sign-in (a refresh token), along with the OAuth client ID and secret you enter, is saved in the plugin's settings file inside your own Obsidian vault. It goes wherever that vault goes, such as a sync service you use for it.</li>
+		<li>The short-lived access token is kept in memory only.</li>
+	</ul>
+
+	<h2>Sharing</h2>
+	<p>Your Google data isn't sold, shared with anyone, or used for advertising or AI training. The plugin talks only to Google's own sign-in and Calendar services. Its separate weather widget sends the coordinates you configure to Open-Meteo, which receives no Google data.</p>
+	<p>Use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+	<h2>Removing access</h2>
+	<p>Click <strong>Disconnect</strong> in the plugin's settings to delete the saved sign-in. You can also revoke access at any time from your Google Account's <a href="https://myaccount.google.com/connections">third-party connections</a> page.</p>
+
+	<h2>Changes and contact</h2>
+	<p>If this policy changes, the updated version will be posted on this page. For questions, <a href="https://github.com/BlindOpimism/baldybrain-dashboard/issues">open an issue</a>.</p>
+
+	<footer><a href="./">BaldyBrain Dashboard</a></footer>
+</main>
+</body>
+</html>
